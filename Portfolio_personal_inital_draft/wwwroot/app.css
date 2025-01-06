@@ -1,0 +1,413 @@
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+h1:focus {
+    outline: none;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid #e50000;
+}
+
+.validation-message {
+    color: #e50000;
+}
+
+
+    .blazor-error-boundary::after {
+        content: "An error has occurred."
+    }
+
+.darker-border-checkbox.form-check-input {
+    border-color: #929292;
+}
+
+/*CSS FOR JACOB*/
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    background: #ff6b00;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.contact-btn {
+    background: #ff6b00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero-content .highlight {
+    color: #ff6b00;
+}
+
+.hero-content p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.hire-btn {
+    margin: 20px 0;
+    background: #ff6b00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .hire-btn:hover {
+        background: #e65a00;
+    }
+
+.skills {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero-image {
+    position: relative;
+}
+
+    .hero-image img {
+        width: 300px;
+        border-radius: 20px;
+    }
+
+.experience {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff6b00;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px 20px;
+}
+
+    .projects h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+.projects-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .project-card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.project-title {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.project-number {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #ff6b00;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        margin-bottom: 20px;
+    }
+
+        .hero-content h1 {
+            font-size: 28px;
+        }
+
+        .hero-content p {
+            font-size: 16px;
+        }
+
+    .hero-image img {
+        width: 200px;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+
+    .projects-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .hero-image img {
+        width: 150px;
+    }
+
+    .projects h2 {
+        font-size: 20px;
+    }
+}
+
+
+/*A Css for footer*/
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer a {
+    color: #00aced; /* LinkedIn blue color */
+    text-decoration: none;
+}
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+.infringement {
+    font-size: 12px;
+    color: #bbb;
+}
+
+/*Ashwin CSS*/
+
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background-color: #999b84;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #eeee;
+}
+
+p {
+    font-size: 2rem;
+    color: #eeee;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.header {
+    background-color: #3a6351;
+}
+
+.wrapper {
+    width: 60%;
+    margin: auto;
+    padding: 1.875rem 0;
+    display: table;
+}
+
+.name-up {
+    color: #eeeeee;
+    font-size: 2.1rem;
+    font-weight: 600;
+    float: left;
+    line-height: 2.5rem;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar {
+    float: right;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-top: 0.5rem;
+}
+
+
+    .btn:hover {
+        background: #30e3cb;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+        text-decoration: none;
+    }
+
+a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #194350;
+    }
+
+
+/*For the page of footer*/
+
+/* Ensure the footer is fixed at the bottom */
+.bottom-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Dark background color for the footer */
+    color: white; /* White text color */
+    text-align: center; /* Center the footer content */
+    padding: 10px 0; /* Padding for spacing */
+    font-family: Arial, sans-serif; /* Font for the footer text */
+    z-index: 100; /* Ensure the footer stays on top */
+}
+
+/* Style the footer links */
+.footer-link {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underlines */
+    margin: 0 15px; /* Add spacing between links */
+    font-size: 16px; /* Font size for the links */
+}
+
+    /* Change link color on hover */
+    .footer-link:hover {
+        color: #f1f1f1; /* Lighter color when hovering */
+    }
+
+    /* Style the icons inside the footer links */
+    .footer-link i {
+        margin-right: 8px; /* Space between icon and text */
+    }
+
+/* Style for copyright text */
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}

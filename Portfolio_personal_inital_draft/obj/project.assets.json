@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Portfolio\\BlazorApp1\\BlazorApp1.csproj",
+      "projectUniqueName": "D:\\new_git_project\\Portfolio_personal_inital_draft\\BlazorApp1.csproj",
       "projectName": "BlazorApp1",
-      "projectPath": "D:\\Portfolio\\BlazorApp1\\BlazorApp1.csproj",
+      "projectPath": "D:\\new_git_project\\Portfolio_personal_inital_draft\\BlazorApp1.csproj",
       "packagesPath": "C:\\Users\\ashwin.adhikari\\.nuget\\packages\\",
-      "outputPath": "D:\\Portfolio\\BlazorApp1\\obj\\",
+      "outputPath": "D:\\new_git_project\\Portfolio_personal_inital_draft\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

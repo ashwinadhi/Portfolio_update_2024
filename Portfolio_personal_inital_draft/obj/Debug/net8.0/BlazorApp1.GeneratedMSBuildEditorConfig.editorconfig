@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorApp1
 build_property.RootNamespace = BlazorApp1
-build_property.ProjectDir = D:\Portfolio\BlazorApp1\
+build_property.ProjectDir = D:\new_git_project\Portfolio_personal_inital_draft\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Portfolio\BlazorApp1
+build_property.MSBuildProjectDirectory = D:\new_git_project\Portfolio_personal_inital_draft
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Portfolio/BlazorApp1/Components/App.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Portfolio/BlazorApp1/Components/Pages/Counter.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Portfolio/BlazorApp1/Components/Pages/Error.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Portfolio/BlazorApp1/Components/Pages/Footer.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb290ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Portfolio/BlazorApp1/Components/Pages/Home.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Portfolio/BlazorApp1/Components/Pages/Weather.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Portfolio/BlazorApp1/Components/Routes.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Portfolio/BlazorApp1/Components/_Imports.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Portfolio/BlazorApp1/Components/Layout/MainLayout.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-j65y7q72mt
 
-[D:/Portfolio/BlazorApp1/Components/Layout/NavMenu.razor]
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-5bndfk4shp

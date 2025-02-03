@@ -24,8 +24,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBYm91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Blog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Error.razor]
@@ -38,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9qZWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Skills.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTa2lsbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/new_git_project/Portfolio_personal_inital_draft/Components/Pages/Weather.razor]

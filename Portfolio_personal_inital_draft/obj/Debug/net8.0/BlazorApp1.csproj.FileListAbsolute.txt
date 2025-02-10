@@ -80,3 +80,7 @@ D:\new_git_project\Portfolio_personal_inital_draft\bin\Debug\net8.0\Microsoft.JS
 D:\new_git_project\Portfolio_personal_inital_draft\bin\Debug\net8.0\MudBlazor.dll
 D:\new_git_project\Portfolio_personal_inital_draft\obj\Debug\net8.0\BlazorApp1.csproj.AssemblyReference.cache
 D:\new_git_project\Portfolio_personal_inital_draft\obj\Debug\net8.0\BlazorApp1.csproj.Up2Date
+D:\new_git_project\Portfolio_personal_inital_draft\bin\Debug\net8.0\MyApplication\MyApplication.Client\obj\MyApplication.Client.csproj.nuget.dgspec.json
+D:\new_git_project\Portfolio_personal_inital_draft\bin\Debug\net8.0\MyApplication\MyApplication.Client\obj\project.assets.json
+D:\new_git_project\Portfolio_personal_inital_draft\bin\Debug\net8.0\MyApplication\MyApplication\obj\MyApplication.csproj.nuget.dgspec.json
+D:\new_git_project\Portfolio_personal_inital_draft\bin\Debug\net8.0\MyApplication\MyApplication\obj\project.assets.json

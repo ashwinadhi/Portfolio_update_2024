@@ -1,0 +1,39 @@
+﻿@page "/skills"
+
+<section id="skills" class="section skills-section">
+    <div class="container-skill">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            @foreach (var skill in Skillss)
+            {
+                <div class="skill-card">
+                    <span class="skill-name">@skill.Name</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: @($"{skill.Percentage}%");"></div>
+                    </div>
+                    <span class="skill-percent">@($"{skill.Percentage}%")</span>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+@code {
+    private List<Skill> Skillss = new()
+    {
+        new Skill { Name = "C#", Percentage = 75 },
+        new Skill { Name = "SELENIUM", Percentage = 80 },
+        new Skill { Name = "POSTMAN", Percentage = 70 },
+        new Skill { Name = "JIRA", Percentage = 90 },
+        new Skill { Name = "CI/CD", Percentage = 90 },
+        new Skill { Name = "JEST", Percentage = 90 },
+        new Skill { Name = "TypeScript", Percentage = 90 },
+        new Skill { Name = "Appium", Percentage = 70 }
+    };
+
+    private class Skill
+    {
+        public string Name { get; set; }
+        public int Percentage { get; set; }
+    }
+}

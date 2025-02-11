@@ -1,0 +1,56 @@
+﻿@page "/blog" 
+@using System;
+@using MudBlazor;
+
+<MudCarousel Class="mud-width-full" Style="height:200px;" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+    <MudCarouselItem Transition="transition">
+        <div class="d-flex" style="height:100%">
+            <img src="~/hero.png" class="mx-auto my-auto" style="max-height: 100%; max-width: 100%;" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="transition">
+        <div class="d-flex" style="height:100%">
+            <img src="Images/landscape.jpg" class="mx-auto my-auto" style="max-height: 100%; max-width: 100%;" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="transition">
+        <div class="d-flex" style="height:100%">
+            <img src="Images/landscape.jpg" class="mx-auto my-auto" style="max-height: 100%; max-width: 100%;" />
+        </div>
+    </MudCarouselItem>
+</MudCarousel>
+
+<div class="visme_d" data-title="Simple Blog Subscription" 
+     data-url="1jzjxpjm-simple-blog-subscription?fullPage=true"
+     data-domain="forms" data-full-page="true" data-min-height="100vh" data-form-id="113786" id="vismeForm">
+ </div>
+     <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js">
+      </script>
+<script src="firebase.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Listen for Visme form submission
+        document.addEventListener("vismeFormSubmit", function (event) {
+            console.log("Visme form submitted!", event.detail);
+
+            // Extract form data
+            let formData = event.detail || {};
+
+            // Save form data to Firebase
+            window.saveFormData(formData).then(success => {
+                if (success) {
+                    alert("Subscription successful! Thank you.");
+                } else {
+                    alert("There was an error. Please try again.");
+                }
+            });
+        });
+    });
+</script>
+
+@code {
+    private bool enableSwipeGesture = true;
+    private bool autocycle = true;
+    private Transition transition = Transition.Slide;
+}

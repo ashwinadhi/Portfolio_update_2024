@@ -1,4 +1,5 @@
-﻿@code {
+﻿
+@* @code {
     // Here you can add any logic specific to the Footer component (if needed).
 }
 <div class = "footer">
@@ -14,4 +15,74 @@
             Github</a>
     <p class="copyright">© 2024 Ashwin Adhikari.</p>
 </div>
-</div>
+</div> *@
+
+<!-- Footer Section -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website Footer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/YOUR-FONT-AWESOME-CODE.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>Joke of the Day</h3>
+                <p id="jokeText">Loading joke...</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="assest/Ashwin_QA_Resume.pdf">Resume</a></li>
+                    <li><a href="mailto:adhikariashwin965@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://github.com/ashwinadhi/"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ashwin-adhikari-9066b8182/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/crackifyoucan788357492/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_ashwin.7/#"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 ASHWIN ADHIKARI. All rights reserved.</p>
+    </div>
+    <script>
+        const jokes = [
+            "Why don't skeletons fight each other? They don't have the guts.",
+            "Why did the coffee file a police report? It got mugged.",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+            "Why did the scarecrow win an award? Because he was outstanding in his field!",
+            "What do you get when you cross a snowman and a vampire? Frostbite.",
+            "Why don't oysters donate to charity? Because they are shellfish.",
+            "Why don't skeletons ever use cell phones? Because they don't have the guts!",
+            "Dev Joke of the Day: सस्तो डेभलपरहरू लाई भन्छन, 'तिमीलाई के थाहा छ?' सस्तो डेभलपर भन्छन, 'मैले गिट हेट गरेको छ।' 'तिमीलाई एक गिट थाहा छ!' 'पक्का मैले यो काम गिट मा भन्दा, मैले यसलाई गिटको शाखामा गर्छु।'"
+        ];
+
+        // Get today's day (0 for Sunday, 1 for Monday, ..., 6 for Saturday)
+        const today = new Date();
+        const dayOfWeek = today.getDay(); // Get the current day of the week
+
+        // Select the joke based on the day of the week
+        const joke = jokes[dayOfWeek];
+
+        // Set the joke in the div
+        document.getElementById("jokeText").textContent = joke;
+    </script>
+</footer>

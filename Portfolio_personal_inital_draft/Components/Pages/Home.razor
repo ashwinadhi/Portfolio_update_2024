@@ -2,60 +2,49 @@
 
 @using System;
 
-<PageTitle>Home</PageTitle>
-
-
+<PageTitle>Ashwin Adhikari</PageTitle>
 <!-- Top Container Section -->
 <section class="hero">
-    <div class="hero-content">
-        <h1>My name is <span class="highlight">Ashwin</span></h1>
-        <p>I am a Quality Assurance Engineer with more than 2 years of experience</p>
-        <button class="hire-btn">Hire Me</button>
-        <div class="skills">
-            <span class="skill">C++</span>
-            <span class="skill">Java</span>
-            <span class="skill">PHP</span>
-            <span class="skill">JavaScript</span>
+	<div class="hero-content">
+		<h1>My name is <span class="highlight">Ashwin</span></h1>
+		<p>I am a Quality Assurance Engineer with more than 2 years of experience</p>
+        <div> <a href="mailto:adhikariashwin965@gmail.com">
+		<button class="cssbuttons-io"><span><svg></svg> Hire me</span></button>
+       </a> </div>
+	</div>
+	<div class="hero-image">
+		<img src="pic.jpg" alt="Jacob">
+        <div>
+            <a href="assest/Ashwin_QA_Resume.pdf">
+            <button class="experience"> 
+                2+ years experience
+            </button> </a>
         </div>
-    </div>
-    <div class="hero-image">
-        <img src="~/hero.png" alt="Jacob">
-        <div class="experience">2+ years experience</div>
-    </div>
+        
+
+	</div>
 </section>
-<section class="projects">
-    <h2>Latest Projects</h2>
-    <div class="projects-grid">
-        <div class="project-card">
-            <img src="project1.jpg" alt="Space Age 60">
-            <p class="project-title">Sajilo Paisa</p>
-            <div class="project-number">01</div>
-        </div>
-        <div class="project-card">
-            <img src="project2.jpg" alt="AMC for App">
-            <p class="project-title">Face mask detection system</p>
-            <div class="project-number">02</div>
-        </div>
-        <div class="project-card">
-            <img src="project3.jpg" alt="Doremus">
-            <p class="project-title">Blood bank management system</p>
-            <div class="project-number">03</div>
-        </div>
 
 
-    </div>
-</section>
+<Projects ></Projects>
+   
+<Skills>  </Skills>
+
+<Blog>  </Blog>
+
+
 <!-- Middle Container Section -->
-<div id="middle-container">
-    <div class="profile">
-        <img class="me" src="images/ashwin.png" alt="ashwin-png" />
-        <h2 class="git">Olá.</h2>
-        <p class="intro">I graduated with a BSc in Computer Science and Information Technology from Deerwalk Institute of Technology situated at Sifal (near Chabhail).</p>
-    </div>
-    <hr />
+@* <div id="middle-container">
+	<div class="profile">
+		<img class="me" src="images/ashwin.png" alt="ashwin-png" />
+		<h2 class="git">Olá.</h2>
+		<p class="intro">I graduated with a BSc in Computer Science and Information Technology from Deerwalk Institute of Technology situated at Sifal (near Chabhail).</p>
+	</div>
+	<hr />
+    </div> *@
 
-    <!-- Timeline Section -->
-    @* <div id="Timeline" style="padding-top:0;">
+	<!-- Timeline Section -->
+	@* <div id="Timeline" style="padding-top:0;">
         <h2 id="timeline-heading">Timeline</h2>
         <div class="timeline">
             <table border="1">
@@ -108,67 +97,34 @@
     </div>
     <hr />
  *@
+@* 	
+	<!-- Skills Section -->
+	<div class="skill-row">
+		<img class="design" src="images/design.png" alt="design" />
+		<h3 class="dnd">Design and Development</h3>
+		<p class="tab">I started learning to code when I was 17 because I wanted to make my own game. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+	</div>
+	<div class="skill-row">
+		<img class="video-edit" src="images/editing.png" alt="video-editing" />
+		<h3 class="ve">Video Editing</h3>
+		<p class="tab">The process of editing is what I enjoy most - putting the pieces together and making sense of them. Don't let old recordings you made long ago go to waste!</p>
+	</div>
 
- <MudTable Items="_items" Height="350px" Breakpoint="Breakpoint.Sm" HorizontalScrollbar="true">
-    <HeaderContent>
-        <MudTh>Column1</MudTh>
-        <MudTh>Column2</MudTh>
-        <MudTh>Column3</MudTh>
-    </HeaderContent>
-    <RowTemplate>
-        <MudTd DataLabel="Column13">@context.Column13</MudTd>
-        <MudTd DataLabel="Column14">@context.Column14</MudTd>
-        <MudTd DataLabel="Column15">@context.Column15</MudTd>
-    </RowTemplate>
-</MudTable>
-@code {
-    public class TestItem{
-        public string Column1 {get;set;}
-        public string Column2 {get;set;}
-        public string Column3 {get;set;}
-       }
-    
-    
-    private List<TestItem> _items;
-
-    protected override void OnInitialized() {
-        _items = new List<TestItem>();
-        for (int i = 0; i < 3; i++) {
-            _items.Add(new TestItem {
-                Column1 = $"Value_{i}",
-                Column2 = $"Value_{i}",
-                Column3 = $"Value_{i}",
-            });
-        }
-    }
-}
-    <!-- Skills Section -->
-    <div class="skill-row">
-        <img class="design" src="images/design.png" alt="design" />
-        <h3 class="dnd">Design and Development</h3>
-        <p class="tab">I started learning to code when I was 17 because I wanted to make my own game. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
-    </div>
-    <div class="skill-row">
-        <img class="video-edit" src="images/editing.png" alt="video-editing" />
-        <h3 class="ve">Video Editing</h3>
-        <p class="tab">The process of editing is what I enjoy most - putting the pieces together and making sense of them. Don't let old recordings you made long ago go to waste!</p>
-    </div>
-
-    <p class="game">
-        Bored? Wanna play a game?<br />
-        <a class="btn" href="dicee.html">Click on it.. <i class="far fa-arrow-alt-circle-right"></i></a>
-    </p>
+	<p class="game">
+		Bored? Wanna play a game?<br />
+		<a class="btn" href="dicee.html">Click on it.. <i class="far fa-arrow-alt-circle-right"></i></a>
+	</p>
 </div>
 <hr />
 
 <!-- Contact Section -->
 <div class="contact-me">
-    <i class="icon fas fa-fingerprint fa-4x"></i>
-    <h2 class="git">Get In Touch</h2>
-    <h3 class="tab">If you love coding and video editing as much as I do.</h3>
-    <p class="contact-message">Love coding and editing? Let's share some of the experiences!</p>
-    <a class="btn" href="mailto:ashwinadhikari3@gmail.com">CONTACT ME</a>
+	<i class="icon fas fa-fingerprint fa-4x"></i>
+	<h2 class="git">Get In Touch</h2>
+	<h3 class="tab">If you love coding and video editing as much as I do.</h3>
+	<p class="contact-message">Love coding and editing? Let's share some of the experiences!</p>
+	<a class="btn" href="mailto:ashwinadhikari3@gmail.com">CONTACT ME</a>
 </div>
 
-
-<Footer  />
+ *@
+<Footer />
